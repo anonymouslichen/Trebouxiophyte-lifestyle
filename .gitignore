@@ -1,0 +1,34 @@
+# Data files (large / generated)
+results/data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# R
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+
+# Environments
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# NLTK data
+nltk_data/

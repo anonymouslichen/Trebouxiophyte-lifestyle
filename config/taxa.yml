@@ -1,0 +1,47 @@
+# ============================================================
+# Taxon configuration for trebouxiophyte lifestyle pipeline
+# ============================================================
+
+# NCBI Entrez email (required by NCBI usage policy)
+entrez_email: "your-email@example.com"
+
+# Batch size for Entrez queries
+batch_size: 500
+
+# Retry settings for NCBI API calls
+max_retries: 3
+retry_delay_seconds: 3
+
+# Genus name -> NCBI Taxonomy ID
+taxa:
+  Coccomyxa: "41891"
+  Elliptochloris: "381760"
+  Myrmecia: "114064"
+  Trebouxia: "13786"
+  Asterochloris: "291965"
+  Vulcanochloris: "1742425"
+  Botryococcus: "38880"
+  Thorsmoerkia: "2876726"
+  Parietochloris: "3101"
+  Lobosphaera: "63682"
+  Trochisciopsis: "1521706"
+  Xylochloris: "942149"
+
+# 18S rRNA reference accessions (for substitution-rate analysis in step 04)
+reference_accessions:
+  Xylochloris: "EU105209.1"
+  Trebouxia_aggregata: "EU123942.1"
+  Myrmecia_sp: "JN573893.1"
+  Trebouxia_sp: "JX127171.1"
+  Lobosphaera: "KM020046.1"
+  Trochisciopsis: "KM020112.1"
+  Asterochloris: "KP318692.1"
+  Vulcanochloris: "KR952316.1"
+  Myrmecia_bisecta: "LC366918.1"
+  Parietochloris: "LC639356.1"
+  Thorsmoerkia: "MW866482.1"
+  Chlorella: "KJ466354.1"       # outgroup
+  Elliptochloris: "HG972969.1"
+  Botryococcus: "AJ581913.1"
+  Coccomyxa_viridis: "HG973001.1"
+  Coccomyxa_peltigerae: "FN597599.1"

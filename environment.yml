@@ -1,0 +1,19 @@
+name: trebouxiophyte-lifestyle
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - biopython
+  - nltk
+  - pyyaml
+  - r-base>=4.1
+  - r-dplyr
+  - r-tidyr
+  - r-stringr
+  - r-ggplot2
+  - r-scales
