@@ -6,10 +6,6 @@ Train a Random Forest classifier on hand-labeled metadata, then predict
 lifestyle labels (free-living / symbiotic / ambiguous) for all unlabeled
 records.
 
-Features are TF-IDF vectors built from concatenated text fields.  Genus
-names listed in config/taxa.yml are stripped from the text to prevent
-data leakage.
-
 Outputs:
   - Confusion matrix PNG           -> results/figures/confusion_matrix.png
   - Classified unlabeled records   -> results/data/classified_metadata.csv
